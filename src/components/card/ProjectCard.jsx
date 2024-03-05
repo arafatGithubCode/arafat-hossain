@@ -21,7 +21,7 @@ const ProjectCard = ({
   return (
     <>
       <motion.div variants={fadeInUp} initial="hidden" animate="show">
-        <Tilt className="bg-tertiary p-5 rounded-2xl w-full sm:w-[360px] border-b-2 border-blue-600 overflow-hidden group">
+        <Tilt className="bg-tertiary p-5 rounded-2xl w-full sm:w-[360px] border-b-2 border-blue-600 overflow-hidden group hover:shadow-sm hover:shadow-pink-200">
           <div className="relative w-full h-[230px]">
             <img
               className="w-full h-full rounded-2xl"

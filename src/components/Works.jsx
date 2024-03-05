@@ -58,10 +58,10 @@ const Works = () => {
         <div className="w-[3px] h-8 bg-[#854CE6]" />
         <button
           className={`${
-            toggle === "rew css & js" ? "bg-[#854CE6] bg-opacity-30 px-1" : ""
+            toggle === "raw css & js" ? "bg-[#854CE6] bg-opacity-30 px-1" : ""
           }`}
-          value="rew css & js"
-          onClick={() => setToggle("rew css & js")}
+          value="raw css & js"
+          onClick={() => setToggle("raw css & js")}
         >
           Raw CSS & JS
         </button>

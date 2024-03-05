@@ -44,6 +44,8 @@ import {
   tip,
   rock,
   visual,
+  university,
+  global,
 } from "../assets";
 
 const bio = {
@@ -58,7 +60,7 @@ const bio = {
     "I develop web applications, user interfaces and 3D visuals. I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning, I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/arafatGithubCode",
   resume:
-    "https://drive.google.com/file/d/12yHzf06OY7VWUufGv-YPc1C5XvZqAKcO/view?usp=sharing",
+    "https://drive.google.com/file/d/1zIrnBjql6-y3NWsfXGnqnSd26G25V4v5/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/arafat-hossain-033a18282/",
   twitter: "",
   insta: "https://www.instagram.com/8720arafat/",
@@ -535,7 +537,7 @@ const projects = [
       four: "Fully responsive design maintained.",
       five: "Utilizes the latest HTML structure.",
     },
-    category: "rew css & js",
+    category: "raw css & js",
     image: weather,
     source_code_link: "https://github.com/arafatGithubCode/weather-checker",
     live_app: "https://weather-checker-chi.vercel.app/",
@@ -566,7 +568,7 @@ const projects = [
       four: "Fully responsive design maintained.",
       five: "Utilizes the latest HTML structure.",
     },
-    category: "rew css & js",
+    category: "raw css & js",
     image: timer,
     source_code_link: "https://github.com/arafatGithubCode/stop-watch",
     live_app: "https://arafatgithubcode.github.io/stop-watch/",
@@ -597,7 +599,7 @@ const projects = [
       four: "Fully responsive design maintained.",
       five: "Utilizes the latest HTML structure.",
     },
-    category: "rew css & js",
+    category: "raw css & js",
     image: search,
     source_code_link: "https://github.com/arafatGithubCode/image-search-app",
     live_app: "https://arafatgithubcode.github.io/image-search-app/",
@@ -629,7 +631,7 @@ const projects = [
       four: "Fully responsive design maintained.",
       five: "Utilizes the latest HTML structure.",
     },
-    category: "rew css & js",
+    category: "raw css & js",
     image: todo,
     source_code_link: "https://github.com/arafatGithubCode/todo-app",
     live_app: "https://arafatgithubcode.github.io/todo-app/",
@@ -660,7 +662,7 @@ const projects = [
       four: "Fully responsive design maintained.",
       five: "Utilizes the latest HTML structure.",
     },
-    category: "rew css & js",
+    category: "raw css & js",
     image: dice,
     source_code_link: "https://github.com/arafatGithubCode/dice-roll",
     live_app: "https://arafatgithubcode.github.io/dice-roll/",
@@ -691,7 +693,7 @@ const projects = [
       four: "Fully responsive design maintained.",
       five: "Utilizes the latest HTML structure.",
     },
-    category: "rew css & js",
+    category: "raw css & js",
     image: tip,
     source_code_link: "https://github.com/arafatGithubCode/tip-calculator",
     live_app: "https://arafatgithubcode.github.io/tip-calculator/",
@@ -722,7 +724,7 @@ const projects = [
       four: "Fully responsive design maintained.",
       five: "Utilizes the latest HTML structure.",
     },
-    category: "rew css & js",
+    category: "raw css & js",
     image: recipe,
     source_code_link: "https://github.com/arafatGithubCode/recipe-app",
     live_app: "https://arafatgithubcode.github.io/recipe-app/",
@@ -753,7 +755,7 @@ const projects = [
       four: "Fully responsive design maintained.",
       five: "Utilizes the latest HTML structure.",
     },
-    category: "rew css & js",
+    category: "raw css & js",
     image: rock,
     source_code_link:
       "https://github.com/arafatGithubCode/rock-paper-scissor-game-",
@@ -785,11 +787,97 @@ const projects = [
       four: "Fully responsive design maintained.",
       five: "Utilizes the latest HTML structure.",
     },
-    category: "rew css & js",
+    category: "raw css & js",
     image: pomodo,
     source_code_link: "https://github.com/arafatGithubCode/pomodoro-timer",
     live_app: "https://arafatgithubcode.github.io/pomodoro-timer/",
   },
 ];
 
-export { services, skills, experiences, projects, bio, navLinks };
+const education = [
+  {
+    id: 0,
+    title: "Relevant Courses:",
+    iconBg: "#383E56",
+    img: university,
+    institution: "Begum Rokeya University, Rangpur",
+    date: "Oct 2021 - Sep 2025 (Expected)",
+    grade: "7.41 CGPA",
+    desc: "I am currently pursuing a Bachelor's degree in Management Information Systems at Begum Rokeya University, Rangpur. I have completed 2 semesters and have a CGPA of 7.39 I am also a member of the IT Innovation Students Club at BRUR, where I am learning and working on exciting projects with a team of talented developers.",
+    degree:
+      "Bachelor of Business Administration – Management Information Systems (MIS)",
+    tags: [
+      {
+        name: "Information Systems",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Operating Systems",
+        color: "green-text-gradient",
+      },
+      {
+        name: "DBMS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Computer Networks",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Business Fundamentals",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Object-Oriented Programming",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Cloud Computing Skills",
+        color: "pink-text-gradient",
+      },
+    ],
+  },
+  {
+    id: 1,
+    title: "Sources of Platforms",
+    iconBg: "#383E56",
+    img: global,
+    institution: "My E-learning Odyssey",
+    date: "Oct 2019 - Present",
+    grade: "50+ Courses",
+    desc: "I'm a passionate self-guided learner to loves online education. I like to develop my skills via self-directed learning. Via internet platforms, I've explored into programming, information systems, and an array of tools, collecting knowledge like a sponge.",
+    degree: "Self-Guided Mastery in Technology and Information Sciences.",
+    tags: [
+      {
+        name: "Youtube",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Google",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Coursera",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "W3 School",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Udemy",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tech Based Official Sites",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Stack Overflow",
+        color: "green-text-gradient",
+      },
+    ],
+  },
+];
+
+export { services, skills, experiences, projects, bio, navLinks, education };

@@ -45,8 +45,10 @@ const Navbar = () => {
             alt="Logo"
             className="w-12 h-10 object-cover rounded-full"
           />
-          <p className="text-white text-[18px] cursor-pointer font-bold flex whitespace-nowrap">
-            Web Developer
+          <p className="text-white text-[18px] cursor-pointer font-bold flex whitespace-nowrap items-center justify-center gap-1">
+            <span className="text-[32px] text-[#854CE6]">&lt;</span>Web{" "}
+            <span className="text-[#854CE6]">/</span> Developer
+            <span className="text-[32px] text-[#854CE6]">&gt;</span>
           </p>
         </Link>
         <ul className="list-none hidden md:flex flex-row gap-6 lg:gap-10">

@@ -5,6 +5,17 @@ import Tech from "./Tech";
 import Experience from "./Experience";
 import Works from "./Works";
 import Contact from "./Contact";
+import Education from "./Education";
 import Footer from "./Footer";
 
-export { Hero, Navbar, About, Tech, Experience, Works, Contact, Footer };
+export {
+  Hero,
+  Navbar,
+  About,
+  Tech,
+  Experience,
+  Works,
+  Contact,
+  Education,
+  Footer,
+};

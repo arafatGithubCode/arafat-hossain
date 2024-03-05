@@ -52,6 +52,8 @@ import tip from "./tip.jpg";
 import timer from "./timer.jpg";
 import heroBanner from "./heroBanner.png";
 import visual from "./visual.jpg";
+import university from "./university.png";
+import global from "./global.png";
 
 export {
   logo,
@@ -104,4 +106,6 @@ export {
   timer,
   heroBanner,
   visual,
+  university,
+  global,
 };

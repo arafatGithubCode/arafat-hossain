@@ -24,7 +24,7 @@ const ProjectModal = ({ project, visible, onClose }) => {
       onClick={handleClose}
       className="bg-white fixed inset-0 bg-opacity-[0.01] backdrop-blur-sm flex justify-center items-center z-50 overflow-y-scroll"
     >
-      <div className="w-[80%] flex flex-col bg-black p-3 pt-0 rounded-xl mt-80 md:w-[50%]">
+      <div className="w-[80%] flex flex-col bg-black p-3 pt-0 rounded-xl mt-80 md:w-[50%] border border-t-4 border-teal-800 hover:shadow-md hover:shadow-pink-200">
         <MdClose
           onClick={onClose}
           className="self-end cursor-pointer text-3xl bg-black rounded-full hover:scale-105"
