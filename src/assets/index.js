@@ -54,6 +54,7 @@ import heroBanner from "./heroBanner.png";
 import visual from "./visual.jpg";
 import university from "./university.png";
 import global from "./global.png";
+import nextjs from "./tech/nextjs.png";
 
 export {
   logo,
@@ -108,4 +109,5 @@ export {
   visual,
   university,
   global,
+  nextjs,
 };

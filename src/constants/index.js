@@ -4,6 +4,7 @@ import {
   backend,
   javascript,
   typescript,
+  nextjs,
   html,
   css,
   reactjs,
@@ -121,10 +122,15 @@ const services = [
 const skills = [
   {
     title: "Frontend",
+    completed: 85,
     technologies: [
       {
         name: "React Js",
         icon: reactjs,
+      },
+      {
+        name: "Next Js",
+        icon: nextjs,
       },
       {
         name: "Redux",
@@ -170,6 +176,7 @@ const skills = [
   },
   {
     title: "Backend",
+    completed: 50,
     technologies: [
       {
         name: "Node Js",
@@ -191,6 +198,7 @@ const skills = [
   },
   {
     title: "Others",
+    completed: 90,
     technologies: [
       {
         name: "Git",
