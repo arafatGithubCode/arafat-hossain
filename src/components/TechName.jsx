@@ -69,7 +69,7 @@ const TechName = () => {
                 {name}
               </span>
               <span className="text-3xl">
-                <MdCircle className="text-slate-900" />
+                <MdCircle className="text-gray-500" />
               </span>
             </React.Fragment>
           ))}
