@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import { MdClose } from "react-icons/md";
+import ReactDOM from "react-dom";
 
 const ProjectModal = ({ project, visible, onClose }) => {
   const {
@@ -18,7 +19,7 @@ const ProjectModal = ({ project, visible, onClose }) => {
     if (e.target.id === "container") onClose();
   };
 
-  return (
+  const modalContent = (
     <div
       id="container"
       onClick={handleClose}
@@ -71,6 +72,11 @@ const ProjectModal = ({ project, visible, onClose }) => {
         </div>
       </div>
     </div>
+  );
+
+  return ReactDOM.createPortal(
+    modalContent,
+    document.getElementById("modal-root")
   );
 };
 
