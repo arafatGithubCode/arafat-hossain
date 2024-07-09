@@ -7,10 +7,12 @@ export default function Button({
   link = "#",
   showIcon = true,
   className = "",
+  target = "",
 }) {
   return (
     <a
       href={link}
+      target={target}
       className={clsx(
         "group relative flex w-fit items-center justify-center overflow-hidden rounded-md border-2 border-slate-900 bg-slate-700 px-4 py-2 font-bold transition-transform ease-out hover:scale-105",
         className

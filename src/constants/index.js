@@ -27,7 +27,6 @@ import {
   insomenia,
   word,
   excel,
-  favicon,
   blog,
   estate,
   expense,
@@ -65,7 +64,7 @@ const bio = {
   twitter: "",
   insta: "https://www.instagram.com/8720arafat/",
   facebook: "https://www.facebook.com/profile.php?id=100067866734531",
-  profileImg: favicon,
+  profileImg: "./favicon.png",
 };
 
 const videoProperties = [
