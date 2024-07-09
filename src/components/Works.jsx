@@ -5,6 +5,7 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants/index";
 import ProjectCard from "./card/ProjectCard";
+import ProjectViews from "./project-views/ProjectViews";
 
 const Works = () => {
   const [toggle, setToggle] = useState("all");
@@ -15,6 +16,7 @@ const Works = () => {
         <p className={`${styles.sectionSubText}`}>My Works</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </div>
+
       <div className="w-full flex">
         <p className="mt-3 text-secondary text-[17px] leading-[30px] max-w-3xl">
           Following projects showcases my skills and experience through
@@ -25,6 +27,9 @@ const Works = () => {
           different technologies, and manage projects effectively.
         </p>
       </div>
+
+      <ProjectViews />
+
       <div className="flex justify-between items-center border-2 border-[#854CE6] rounded-xl px-5 gap-3 font-medium text-sm xs:text-lg md:text-xl text-[#854CE6] mt-12 max-w-xl mx-auto">
         <button
           className={`${

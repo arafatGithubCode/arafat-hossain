@@ -54,7 +54,7 @@ const Tech = () => {
 
       <div className="max-w-5xl mx-auto grid lg:grid-cols-2 gap-8 justify-center bg-transparent">
         {skills.map((skill, index) => (
-          <Tilt key={`skill-${index}`}>
+          <Tilt key={`skill-${index}}`}>
             <motion.div
               variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
               key={`skill-${index}`}
