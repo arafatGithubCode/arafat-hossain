@@ -68,6 +68,23 @@ const bio = {
   profileImg: favicon,
 };
 
+const videoProperties = [
+  {
+    id: 1,
+    src: "./videos/video1.mp4",
+  },
+  {
+    id: 2,
+    src: "./videos/video2.mp4",
+  },
+  // {
+  //   id: 3,
+  //   title: "Video 3",
+  //   src: Vid3,
+  //   credit: "Video by cottonbro from Pexels",
+  // },
+];
+
 const navLinks = [
   {
     id: "about",
@@ -880,4 +897,13 @@ const education = [
   },
 ];
 
-export { services, skills, experiences, projects, bio, navLinks, education };
+export {
+  services,
+  skills,
+  experiences,
+  projects,
+  bio,
+  navLinks,
+  education,
+  videoProperties,
+};

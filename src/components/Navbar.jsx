@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 
 import { navLinks, bio } from "../constants";
 import { styles } from "../styles";
-import { close, logo, menu, github } from "../assets";
+import { close, menu, github } from "../assets";
+import Button from "./Button";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -40,11 +41,6 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img
-            src={logo}
-            alt="Logo"
-            className="w-12 h-10 object-cover rounded-full"
-          />
           <p className="text-white text-[18px] cursor-pointer font-bold flex whitespace-nowrap items-center justify-center gap-1">
             <span className="text-[32px] text-[#854CE6]">&lt;</span>Web{" "}
             <span className="text-[#854CE6]">/</span> Developer
@@ -64,13 +60,14 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <a
-          href="https://github.com/arafatGithubCode"
-          target="_blank"
-          className="hidden lg:inline-block text-[#854CE6] border border-[#854CE6] px-5 py-1 rounded-xl font-medium text-lg hover:bg-[#854CE6] hover:text-white transition duration-200 ease-in-out"
-        >
-          Github Profile
-        </a>
+
+        <Button
+          text="Github Profile"
+          link="https://github.com/arafatGithubCode"
+          showIcon={true}
+          className="hidden lg:block"
+        />
+
         <a
           href={bio.github}
           target="_blank"
@@ -105,13 +102,11 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
-              <a
-                href="https://github.com/arafatGithubCode"
-                target="_blank"
-                className="text-[#854CE6] border border-[#854CE6] px-5 py-1 rounded-xl font-medium text-lg hover:bg-[#854CE6] hover:text-white transition duration-200 ease-in-out"
-              >
-                Github Profile
-              </a>
+              <Button
+                text="Github Profile"
+                link="https://github.com/arafatGithubCode"
+                showIcon={true}
+              />
             </ul>
           </div>
         </div>
