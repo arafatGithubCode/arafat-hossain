@@ -117,7 +117,7 @@ const Hero = () => {
       </div>
 
       <div
-        className={`absolute inset-0 top-[180px] max-w-xl mx-auto lg:hidden ${styles.paddingX} md:mt-2`}
+        className={`absolute inset-0 top-[180px] max-w-md mx-auto lg:hidden ${styles.paddingX} md:mt-2`}
       >
         <VideoCarousel />
       </div>
@@ -125,11 +125,11 @@ const Hero = () => {
       <div
         className={`absolute inset-0 top-[250px] max-w-7xl mx-auto ${styles.paddingX} hidden lg:flex justify-between`}
       >
-        <div className="w-[30rem] order-1">
+        <div className="w-[22rem] order-1 -mt-10 ml-24">
           <VideoCarousel />
         </div>
 
-        <div className="w-1/2 h-full relative order-2">
+        <div className="w-1/2 h-full relative order-2 -mt-10">
           <ComputersCanvas />
         </div>
       </div>
