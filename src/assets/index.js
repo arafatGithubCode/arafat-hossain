@@ -55,8 +55,22 @@ import visual from "./visual.jpg";
 import university from "./university.png";
 import global from "./global.png";
 import nextjs from "./tech/nextjs.png";
+import eShopLover from "./eShopLover.jpg";
+import adminDash from "./adminDash.jpg";
+import groceryShop from "./groceryShop.jpg";
+import mernFood from "./mernFood.jpg";
+import google from "./google.jpg";
+import imdb from "./imdb.jpg";
+import insta from "./insta.jpg";
 
 export {
+  eShopLover,
+  adminDash,
+  groceryShop,
+  mernFood,
+  google,
+  imdb,
+  insta,
   logo,
   backend,
   creator,

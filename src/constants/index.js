@@ -1,6 +1,13 @@
 import { v4 as uuidv4 } from "uuid";
 
 import {
+  eShopLover,
+  adminDash,
+  groceryShop,
+  mernFood,
+  google,
+  imdb,
+  insta,
   backend,
   javascript,
   typescript,
@@ -34,7 +41,6 @@ import {
   hotel,
   weather,
   todo,
-  port,
   space,
   dice,
   pomodo,
@@ -43,7 +49,6 @@ import {
   search,
   tip,
   rock,
-  visual,
   university,
   global,
 } from "../assets";
@@ -288,6 +293,93 @@ const experiences = [
 const projects = [
   {
     id: uuidv4(),
+    name: "eShopLover",
+    description:
+      "Introducing my web-based e-commerce app, where users can effortlessly search, filter, and browse products with a visually appealing UI design.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "reduxjs/toolkit",
+        color: "green-text-gradient",
+      },
+      {
+        name: "framer-motion",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "slick-carousel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react-paginate",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+    ],
+    features: {
+      one: "Enhanced reusability with custom hooks.",
+      two: "Effortless data retrieval with fetch.",
+      three: "Integrated mongoose for streamlined authentication.",
+      four: "Utilizes React Toast for intelligent alert messaging.",
+      five: "Leverages UI tools as the design solution.",
+    },
+    category: "react",
+    image: eShopLover,
+    source_code_link: "https://github.com/arafatGithubCode/eShopLover",
+    live_app: "https://e-shop-lover.vercel.app/",
+  },
+  {
+    id: uuidv4(),
+    name: "Admin Dashboard",
+    description:
+      "Introducing my React admin dashboard, designed for seamless management and monitoring with intuitive navigation, real-time data visualization, and a clean, modern UI.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mui/material",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react-pro-sidebar",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "emotion/react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "formik",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+    ],
+    features: {
+      one: "Smart overview of all activities",
+      two: "Robust filtering and searching design.",
+      three: "Interactive sidebar for navigation",
+      four: "Implemented various charts and bars",
+      five: "Leverages UI tools as the design solution.",
+    },
+    category: "react",
+    image: adminDash,
+    source_code_link:
+      "https://github.com/arafatGithubCode/admin-dashboard-react-",
+    live_app: "https://admin-dashboard-react-beige.vercel.app/",
+  },
+  {
+    id: uuidv4(),
     name: "Blog Web app",
     description:
       "Introducing my web based blog app with interactive dashboard functionality where users can publish posts with images and manage their personal profile.",
@@ -335,6 +427,59 @@ const projects = [
   },
   {
     id: uuidv4(),
+    name: "Enterprise Label Food Ordering App",
+    description:
+      "Build & Launch an Enterprise-Level Food Ordering Platform: React Node.js MongoDB Auth Stripe & More!",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "expressJS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "NodeJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "zod",
+        color: "green-text-gradient",
+      },
+      {
+        name: "shadcn",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+    ],
+    features: {
+      one: "MVC structure for efficient file management.",
+      two: "Efficiently handles data retrieval with fetch, redux, and jsonwebtoken.",
+      three: "Employs Formik for secure form authentication.",
+      four: "Enhanced styling with Flowbite for rapid development.",
+      five: "Complete CRUD operation and search functionality with mongoose.",
+    },
+    category: "mern",
+    image: mernFood,
+    source_code_link:
+      "https://github.com/arafatGithubCode/Enterprise-Level-Food-Ordering-Platform",
+    live_app: "https://frontend-mern-food-ordering-app-2ekd.onrender.com/",
+  },
+
+  {
+    id: uuidv4(),
     name: "Real Estate",
     description:
       "Developed a MERN real estate platform for seamless property and restaurant transactions. Empowering users to list, rent, and sell with ease.",
@@ -379,41 +524,145 @@ const projects = [
   },
   {
     id: uuidv4(),
-    name: "3D Portfolio",
+    name: "Grocery Shop",
     description:
-      "Use our React app to explore your portfolio in three dimensions. Display your creations like never before. Captivate your viewers with eye-catching graphics and simple navigation. Improve your portfolio right now!",
+      "Introducing my web-based e-commerce app, where users can effortlessly search, filter, and browse products with a visually appealing UI design.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "react-three",
+        name: "mui/material",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react-pro-sidebar",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "emotion/react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "formik",
         color: "green-text-gradient",
       },
       {
         name: "tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "emailJS",
-        color: "pink-text-gradient",
+        color: "green-text-gradient",
       },
     ],
     features: {
-      one: "Fully responsive design",
-      two: "Stunning 3D visuals",
-      three: "Seamless messaging via emailJS",
-      four: "Smartly showcase experiences and skills",
-      five: "Engage with GIF icons for immersive 3D experience.",
+      one: "Enhanced reusability with custom hooks.",
+      two: "Effortless data retrieval with fetch.",
+      three: "Integrated mongoose for streamlined authentication.",
+      four: "Utilizes React Toast for intelligent alert messaging.",
+      five: "Leverages UI tools as the design solution.",
     },
     category: "react",
-    image: visual,
-    source_code_link:
-      "https://github.com/arafatGithubCode/3d-portfolio-me/tree/main",
-    live_app:
-      "https://65e51c321a90c3fb19a462b7--profound-snickerdoodle-1f584b.netlify.app/",
+    image: groceryShop,
+    source_code_link: "https://github.com/arafatGithubCode",
+    live_app: "https://full-stack-grocery-store.vercel.app/",
   },
+
+  {
+    id: uuidv4(),
+    name: "Google Clone",
+    description:
+      "Next.js 14 Project with Tailwind CSS | 2024 Google Cone Next js 14 Full Project.",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+    ],
+    features: {
+      one: "Enhanced reusability with custom hooks.",
+      two: "Effortless data retrieval with fetch.",
+      three: "Integrated next auth for streamlined authentication.",
+      four: "Utilizes React Toast for intelligent alert messaging.",
+      five: "Leverages UI tools as the design solution.",
+    },
+    category: "nextjs",
+    image: google,
+    source_code_link:
+      "https://github.com/arafatGithubCode/google-clone-next.js14",
+    live_app: "https://google-next-v3.vercel.app/",
+  },
+
+  {
+    id: uuidv4(),
+    name: "IMDB Clone",
+    description:
+      "Next.js 14 and Tailwind CSS project | Build a Movie app similar to IMdB",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+    ],
+    features: {
+      one: "Enhanced reusability with custom hooks.",
+      two: "Effortless data retrieval with fetch.",
+      three: "Integrated next auth for streamlined authentication.",
+      four: "Utilizes React Toast for intelligent alert messaging.",
+      five: "Leverages UI tools as the design solution.",
+    },
+    category: "nextjs",
+    image: imdb,
+    source_code_link: "https://github.com/arafatGithubCode/IMDB-clone-next14",
+    live_app: "https://imdb.100jsprojects.com/",
+  },
+  {
+    id: uuidv4(),
+    name: "Instagram Clone",
+    description:
+      "Next.js 14 and Tailwind CSS project | Build a social media app like instagram with next js 14",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+    ],
+    features: {
+      one: "Enhanced reusability with custom hooks.",
+      two: "Effortless data retrieval with fetch.",
+      three: "Integrated next auth for streamlined authentication.",
+      four: "Utilizes React Toast for intelligent alert messaging.",
+      five: "Leverages UI tools as the design solution.",
+    },
+    category: "nextjs",
+    image: insta,
+    source_code_link:
+      "https://github.com/arafatGithubCode/X-twitter-clone--nextjs",
+    live_app: "https://insta-nextjs14-test-10.vercel.app/",
+  },
+
   {
     id: uuidv4(),
     name: "Expense Tracker",
@@ -476,33 +725,6 @@ const projects = [
     image: hotel,
     source_code_link: "https://github.com/arafatGithubCode/realtor",
     live_app: "https://realtor-sepia.vercel.app/",
-  },
-  {
-    id: uuidv4(),
-    name: "Portfolio App",
-    description:
-      "Web based portfolio app that allows to user to showcase his skills and expertise to his client.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Material UI",
-        color: "pink-text-gradient",
-      },
-    ],
-    features: {
-      one: "Used styled-components",
-      two: "Create custom json for constant data",
-      three: "Maintain complete responsiveness",
-      four: "Utilizes React Toast for intelligent alert messaging.",
-      five: "Create react components for reusability",
-    },
-    category: "react",
-    image: port,
-    source_code_link: "https://github.com/arafatGithubCode/Demo-profile-me",
-    live_app: "",
   },
   {
     id: uuidv4(),
