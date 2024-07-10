@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { useState } from "react";
+import React, { useState } from "react";
 
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
@@ -30,47 +30,27 @@ const Works = () => {
 
       <ProjectViews />
 
-      <div className="flex justify-between items-center border-2 border-[#854CE6] rounded-xl px-5 gap-3 font-medium text-sm xs:text-lg md:text-xl text-[#854CE6] mt-12 max-w-xl mx-auto">
-        <button
-          className={`${
-            toggle === "all" ? "bg-[#854CE6] bg-opacity-30 px-1" : ""
-          }`}
-          value="all"
-          onClick={() => setToggle("all")}
-        >
-          All
-        </button>
-        <div className="w-[3px] h-8 bg-[#854CE6]" />
-        <button
-          className={`${
-            toggle === "mern" ? "bg-[#854CE6] bg-opacity-30 px-1" : ""
-          }`}
-          value="mern"
-          onClick={() => setToggle("mern")}
-        >
-          MERN
-        </button>
-        <div className="w-[3px] h-8 bg-[#854CE6]" />
-        <button
-          className={`${
-            toggle === "react" ? "bg-[#854CE6] bg-opacity-30 px-1" : ""
-          }`}
-          value="react"
-          onClick={() => setToggle("react")}
-        >
-          React
-        </button>
-        <div className="w-[3px] h-8 bg-[#854CE6]" />
-        <button
-          className={`${
-            toggle === "raw css & js" ? "bg-[#854CE6] bg-opacity-30 px-1" : ""
-          }`}
-          value="raw css & js"
-          onClick={() => setToggle("raw css & js")}
-        >
-          Raw CSS & JS
-        </button>
+      <div className="flex flex-wrap justify-center md:justify-between items-center border-2 border-[#854CE6] rounded-xl px-2 md:px-4 gap-3 font-medium text-sm xs:text-lg md:text-xl text-[#854CE6] mt-12 max-w-xl mx-auto">
+        {["all", "mern", "react", "nextjs", "raw css & js"].map((item) => (
+          <React.Fragment key={item}>
+            <button
+              className={`${
+                toggle === item
+                  ? "bg-[#854CE6] bg-opacity-30 px-2 md:px-4 rounded-md text-white"
+                  : ""
+              } py-1`}
+              value={item}
+              onClick={() => setToggle(item)}
+            >
+              {item.charAt(0).toUpperCase() + item.slice(1)}
+            </button>
+            {item !== "raw css & js" && (
+              <div className="hidden md:block w-[3px] h-8 bg-[#854CE6]" />
+            )}
+          </React.Fragment>
+        ))}
       </div>
+
       <p className="text-center mt-5 uppercase text-slate-400 text-sm">{`Showing ${toggle} web apps`}</p>
       <div className="mt-14 flex flex-wrap gap-6 justify-center">
         {toggle === "all"
