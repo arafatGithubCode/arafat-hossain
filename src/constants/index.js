@@ -66,9 +66,8 @@ const bio = {
   github: "https://github.com/arafatGithubCode",
   resume:
     "https://drive.google.com/file/d/1zIrnBjql6-y3NWsfXGnqnSd26G25V4v5/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/arafat-hossain-033a18282/",
-  twitter: "",
-  insta: "https://www.instagram.com/8720arafat/",
+  linkedin: "https://www.linkedin.com/in/webdev-arafat/",
+  twitter: "https://x.com/webDev_arafat",
   facebook: "https://www.facebook.com/profile.php?id=100067866734531",
   profileImg: "./favicon.png",
 };

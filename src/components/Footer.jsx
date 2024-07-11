@@ -6,7 +6,6 @@ import {
   FaFacebookF,
   FaLinkedinIn,
   FaGithubSquare,
-  FaInstagram,
   FaTwitter,
 } from "react-icons/fa";
 
@@ -34,27 +33,22 @@ const Footer = () => {
         ))}
       </ul>
       <ul className="flex justify-center items-center gap-10 text-2xl cursor-pointer black-gradient rounded-full py-2">
-        <li className="hover:text-blue-600">
+        <li className="hover:scale-110">
           <a href={bio.linkedin} target="_blank">
             <FaLinkedinIn />
           </a>
         </li>
-        <li className="hover:text-blue-600">
-          <a href={bio.insta} target="_blank">
-            <FaInstagram />
-          </a>
-        </li>
-        <li className="hover:text-blue-600">
+        <li className="hover:scale-110">
           <a href={bio.github} target="_blank">
             <FaGithubSquare />
           </a>
         </li>
-        <li className="hover:text-blue-600">
+        <li className="hover:scale-110">
           <a href={bio.facebook} target="_blank">
             <FaFacebookF />
           </a>
         </li>
-        <li className="hover:text-blue-600">
+        <li className="hover:scale-110">
           <a href={bio.twitter} target="_blank">
             <FaTwitter />
           </a>
