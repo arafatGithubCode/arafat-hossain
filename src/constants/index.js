@@ -123,7 +123,6 @@ const blogs = [
     tags: ["app route", "SSR", "CSR"],
     postImage: "./posts/post1.jpg",
     fallbackImage: "./posts/post1.jpg",
-    postLink: "",
     linkText: "Read More",
   },
 ];

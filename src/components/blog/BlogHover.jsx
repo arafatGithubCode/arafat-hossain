@@ -120,7 +120,8 @@ const BlogHover = () => {
             className="list-item opacity-0"
           >
             <a
-              href={post.postLink}
+              href="https://nextjs.org/blog/next-15-rc"
+              target="_blank"
               className="flex flex-col justify-between py-10 text-slate-200 md:flex-row"
               aria-label={post.title || ""}
             >
