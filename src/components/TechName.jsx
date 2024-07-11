@@ -11,7 +11,6 @@ const technologies = [
   { name: "THREE.JS", color: "pink" },
   { name: "React", color: "yellow" },
   { name: "Next.JS", color: "white" },
-  { name: "React", color: "green" },
 ];
 
 const TechName = () => {

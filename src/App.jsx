@@ -11,6 +11,8 @@ import {
   Tech,
   Works,
 } from "./components";
+import BlogTitle from "./components/blog/BlogTitle";
+import BlogHover from "./components/blog/BlogHover";
 
 const App = () => {
   return (
@@ -24,6 +26,10 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
+        <div>
+          <BlogTitle />
+          <BlogHover />
+        </div>
         <Education />
         <Contact />
         <Footer />

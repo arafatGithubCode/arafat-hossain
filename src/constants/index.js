@@ -108,8 +108,23 @@ const navLinks = [
     title: "Project",
   },
   {
+    id: "blog",
+    title: "Blog",
+  },
+  {
     id: "contact",
     title: "Contact",
+  },
+];
+
+const blogs = [
+  {
+    title: "The evaluation of Next.js",
+    tags: ["app route", "SSR", "CSR"],
+    postImage: "./posts/post1.jpg",
+    fallbackImage: "./posts/post1.jpg",
+    postLink: "",
+    linkText: "Read More",
   },
 ];
 
@@ -1135,4 +1150,5 @@ export {
   navLinks,
   education,
   videoProperties,
+  blogs,
 };
