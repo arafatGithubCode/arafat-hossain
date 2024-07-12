@@ -5,12 +5,12 @@ import { cn } from "../../utils";
 import ProjectShow from "./ProjectShow";
 
 const PROJECTS = [
+  "./projectView/view6.jpg",
   "./projectView/view1.jpg",
   "./projectView/view2.jpg",
   "./projectView/view3.jpg",
   "./projectView/view4.jpg",
   "./projectView/view5.jpg",
-  "./projectView/view6.svg",
 ];
 
 const splitArray = (array, numParts) => {
@@ -104,7 +104,7 @@ const ViewsGrid = () => {
   return (
     <div
       ref={containerRef}
-      className="relative -mx-4 mt-10  grid h-[35rem] max-h-[150vh] grid-cols-1 items-start gap-8 overflow-hidden px-3 sm:mt-16 md:grid-cols-2 lg:grid-cols-3 rounded-2xl"
+      className="relative -mx-4 mt-10  grid h-[40rem] max-h-[150vh] grid-cols-1 items-start gap-8 overflow-hidden px-3 sm:mt-16 md:grid-cols-2 lg:grid-cols-3 rounded-2xl"
     >
       {isInView ? (
         <>
