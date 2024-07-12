@@ -123,6 +123,15 @@ const blogs = [
     postImage: "./posts/post1.jpg",
     fallbackImage: "./posts/post1.jpg",
     linkText: "Read More",
+    link: "https://nextjs.org/blog/next-15-rc",
+  },
+  {
+    title: "Cool GSAP Animation",
+    tags: ["GSAP", "Javascript"],
+    postImage: "./posts/post2.png",
+    fallbackImage: "./posts/post2.png",
+    linkText: "Read More",
+    link: "https://gsap.com/blog/",
   },
 ];
 
