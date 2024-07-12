@@ -226,3 +226,10 @@
   font-size: 20px;
   color: palevioletred;
 }
+
+html::-webkit-scrollbar {
+  display: none;
+}
+html {
+  scrollbar-width: none;
+}
