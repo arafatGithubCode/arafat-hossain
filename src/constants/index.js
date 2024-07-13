@@ -65,7 +65,7 @@ const bio = {
     "I develop web applications, user interfaces and 3D visuals. I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning, I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/arafatGithubCode",
   resume:
-    "https://drive.google.com/file/d/1zIrnBjql6-y3NWsfXGnqnSd26G25V4v5/view?usp=sharing",
+    "https://drive.google.com/file/d/1Mh-R9LGh1QqXmH_GLeN9IWGtLATQgIsC/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/webdev-arafat/",
   twitter: "https://x.com/webDev_arafat",
   facebook: "https://www.facebook.com/profile.php?id=100067866734531",
