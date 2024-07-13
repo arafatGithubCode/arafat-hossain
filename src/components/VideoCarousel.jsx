@@ -22,7 +22,7 @@ const VideoCarousel = () => {
       <Slider {...settings}>
         {videoProperties.map((videoObj) => {
           return (
-            <div key={videoObj.id}>
+            <div key={videoObj.id} className="aspect-video">
               <ReactPlayer
                 url={videoObj.src}
                 pip={true}

@@ -117,7 +117,7 @@ const Hero = () => {
       </div>
 
       <div
-        className={`absolute inset-0 top-[180px] max-w-md mx-auto lg:hidden ${styles.paddingX} md:mt-2`}
+        className={`absolute inset-0 top-[290px] max-w-md mx-auto lg:hidden ${styles.paddingX} md:mt-2`}
       >
         <VideoCarousel />
       </div>
@@ -125,7 +125,7 @@ const Hero = () => {
       <div
         className={`absolute inset-0 top-[250px] max-w-7xl mx-auto ${styles.paddingX} hidden lg:flex justify-between`}
       >
-        <div className="w-[22rem] order-1 -mt-10 ml-24">
+        <div className="w-[22rem] order-1 mt-20 ml-24">
           <VideoCarousel />
         </div>
 
@@ -134,7 +134,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="w-full flex justify-center items-center absolute bottom-[1rem] xs:bottom-0 z-10">
+      <div className="w-full flex justify-center items-center absolute bottom-[1rem] xs:bottom-0 z-50">
         <a href="#about">
           <div className="w-[34px] h-[64px] rounded-xl border-4 border-secondary p-2 flex justify-center items-start">
             <motion.div

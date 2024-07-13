@@ -75,18 +75,16 @@ const bio = {
 const videoProperties = [
   {
     id: 1,
-    src: "./videos/video1.mp4",
+    src: "https://youtu.be/4AcuxYWCqUg?si=tXabqZjAP8WYl4QM",
   },
   {
     id: 2,
-    src: "./videos/video2.mp4",
+    src: "https://youtu.be/KVs7l74alcI",
   },
-  // {
-  //   id: 3,
-  //   title: "Video 3",
-  //   src: Vid3,
-  //   credit: "Video by cottonbro from Pexels",
-  // },
+  {
+    id: 3,
+    src: "https://youtu.be/JIsmnULmGLA",
+  },
 ];
 
 const navLinks = [

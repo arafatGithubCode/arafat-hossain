@@ -13,8 +13,8 @@ const Contact = () => {
       >
         <p className={`${styles.sectionSubText}`}>Get in touch</p>
         <h3 className={`${styles.sectionHeadText}`}>Contact.</h3>
-        <div className="p-5 rounded divide-y">
-          <div className="space-y-2 mb-3 text-[#fffce1] pr-2">
+        <div className="p-5 rounded divide-y text-[#fffce1]">
+          <div className="space-y-2 mb-3 pr-2">
             <p className="flex items-center justify-between">
               <span className="font-semibold text-lg">Country</span>
               <span className="text-gray-400">Bangladesh</span>
